@@ -1,0 +1,446 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Westwood Realty | Property Application</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header class="header">
+    <div class="logo">
+        WESTWOOD <span>REALTY</span>
+    </div>
+
+    <p>Homes • Apartments • Commercial Properties</p>
+</header>
+
+
+<!-- HERO -->
+<section class="hero">
+
+    <div class="hero-content">
+        <p class="small-title">FIND YOUR NEXT HOME</p>
+
+        <h1>
+            Your Next Property<br>
+            Starts Here.
+        </h1>
+
+        <p>
+            Apply for available rental and purchase properties
+            throughout the United States.
+        </p>
+
+        <a href="#application" class="hero-btn">
+            Start Application
+        </a>
+    </div>
+
+</section>
+
+
+<!-- ADVERTISEMENT PROPERTIES -->
+<section class="properties">
+
+    <div class="section-heading">
+        <p>FEATURED PROPERTIES</p>
+        <h2>Find a Place You'll Love</h2>
+    </div>
+
+
+    <div class="property-grid">
+
+        <div class="property-card">
+
+            <div class="property-image house1">
+                <span>FOR RENT</span>
+            </div>
+
+            <div class="property-info">
+                <h3>Modern Family Home</h3>
+
+                <p class="location">
+                    📍 United States
+                </p>
+
+                <div class="details">
+                    <span>🛏 3 Beds</span>
+                    <span>🛁 2 Baths</span>
+                    <span>🚗 Garage</span>
+                </div>
+
+                <strong>Contact us for availability</strong>
+            </div>
+
+        </div>
+
+
+        <div class="property-card">
+
+            <div class="property-image house2">
+                <span>FOR SALE</span>
+            </div>
+
+            <div class="property-info">
+                <h3>Contemporary Residence</h3>
+
+                <p class="location">
+                    📍 United States
+                </p>
+
+                <div class="details">
+                    <span>🛏 4 Beds</span>
+                    <span>🛁 3 Baths</span>
+                    <span>🚗 Garage</span>
+                </div>
+
+                <strong>Contact us for availability</strong>
+            </div>
+
+        </div>
+
+
+        <div class="property-card">
+
+            <div class="property-image house3">
+                <span>RENT / BUY</span>
+            </div>
+
+            <div class="property-info">
+                <h3>Luxury Apartment</h3>
+
+                <p class="location">
+                    📍 United States
+                </p>
+
+                <div class="details">
+                    <span>🛏 2 Beds</span>
+                    <span>🛁 2 Baths</span>
+                    <span>🏢 Apartment</span>
+                </div>
+
+                <strong>Contact us for availability</strong>
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- APPLICATION -->
+<section class="application-section" id="application">
+
+    <div class="application-header">
+
+        <p>PROPERTY APPLICATION</p>
+
+        <h2>Tell Us What You're Looking For</h2>
+
+        <span>
+            Complete the form below and our property team
+            will review your application.
+        </span>
+
+    </div>
+
+
+    <form
+        action="https://formspree.io/f/xeaooper"
+        method="POST"
+        class="application-form"
+    >
+
+        <input
+            type="hidden"
+            name="_subject"
+            value="New Westwood Realty Property Application"
+        >
+
+
+        <!-- APPLICANT -->
+        <h3>Applicant Information</h3>
+
+        <div class="form-grid">
+
+            <div class="field">
+                <label>First Name *</label>
+                <input
+                    type="text"
+                    name="first_name"
+                    placeholder="First name"
+                    required
+                >
+            </div>
+
+
+            <div class="field">
+                <label>Last Name *</label>
+                <input
+                    type="text"
+                    name="last_name"
+                    placeholder="Last name"
+                    required
+                >
+            </div>
+
+
+            <div class="field">
+                <label>Email Address *</label>
+                <input
+                    type="email"
+                    name="email"
+                    placeholder="you@example.com"
+                    required
+                >
+            </div>
+
+
+            <div class="field">
+                <label>Phone Number *</label>
+                <input
+                    type="tel"
+                    name="phone"
+                    placeholder="Phone number"
+                    required
+                >
+            </div>
+
+        </div>
+
+
+        <!-- PROPERTY -->
+        <h3>Property Request</h3>
+
+        <div class="form-grid">
+
+            <div class="field">
+
+                <label>Application Type *</label>
+
+                <select name="application_type" required>
+
+                    <option value="">
+                        Select one
+                    </option>
+
+                    <option value="Rental">
+                        I want to rent
+                    </option>
+
+                    <option value="Purchase">
+                        I want to buy
+                    </option>
+
+                </select>
+
+            </div>
+
+
+            <div class="field">
+
+                <label>Property Type *</label>
+
+                <select name="property_type" required>
+
+                    <option value="">
+                        Select property type
+                    </option>
+
+                    <option value="Apartment">
+                        Apartment
+                    </option>
+
+                    <option value="House">
+                        House
+                    </option>
+
+                    <option value="Condo">
+                        Condo
+                    </option>
+
+                    <option value="Townhouse">
+                        Townhouse
+                    </option>
+
+                    <option value="Commercial">
+                        Commercial Property
+                    </option>
+
+                    <option value="Other">
+                        Other
+                    </option>
+
+                </select>
+
+            </div>
+
+
+            <div class="field">
+
+                <label>Preferred State</label>
+
+                <input
+                    type="text"
+                    name="preferred_state"
+                    placeholder="e.g. Texas"
+                >
+
+            </div>
+
+
+            <div class="field">
+
+                <label>Preferred City</label>
+
+                <input
+                    type="text"
+                    name="preferred_city"
+                    placeholder="e.g. Houston"
+                >
+
+            </div>
+
+
+            <div class="field">
+
+                <label>Bedrooms</label>
+
+                <select name="bedrooms">
+
+                    <option value="">
+                        Select
+                    </option>
+
+                    <option value="Studio">
+                        Studio
+                    </option>
+
+                    <option value="1">
+                        1 Bedroom
+                    </option>
+
+                    <option value="2">
+                        2 Bedrooms
+                    </option>
+
+                    <option value="3">
+                        3 Bedrooms
+                    </option>
+
+                    <option value="4+">
+                        4+ Bedrooms
+                    </option>
+
+                </select>
+
+            </div>
+
+
+            <div class="field">
+
+                <label>Budget</label>
+
+                <select name="budget">
+
+                    <option value="">
+                        Select budget
+                    </option>
+
+                    <option value="Under $1,500">
+                        Under $1,500
+                    </option>
+
+                    <option value="$1,500 - $2,500">
+                        $1,500 - $2,500
+                    </option>
+
+                    <option value="$2,500 - $4,000">
+                        $2,500 - $4,000
+                    </option>
+
+                    <option value="$4,000+">
+                        $4,000+
+                    </option>
+
+                </select>
+
+            </div>
+
+        </div>
+
+
+        <!-- MESSAGE -->
+        <h3>Additional Information</h3>
+
+        <div class="field">
+
+            <label>
+                Tell us more about the property you're looking for
+            </label>
+
+            <textarea
+                name="message"
+                rows="5"
+                placeholder="Tell us about your preferred location, move-in date, property requirements, or any other information..."
+            ></textarea>
+
+        </div>
+
+
+        <div class="consent">
+
+            <input
+                type="checkbox"
+                name="application_confirmation"
+                value="Applicant confirms information is accurate"
+                required
+            >
+
+            <span>
+                I confirm that the information I have provided
+                is accurate to the best of my knowledge.
+            </span>
+
+        </div>
+
+
+        <button type="submit" class="submit-btn">
+            Submit Property Application
+        </button>
+
+
+        <p class="privacy-note">
+            Your application information will be used to respond
+            to your property inquiry.
+        </p>
+
+    </form>
+
+</section>
+
+
+<footer>
+
+    <div class="logo">
+        WESTWOOD <span>REALTY</span>
+    </div>
+
+    <p>
+        Property inquiries and applications
+    </p>
+
+    <small>
+        © 2026 Westwood Realty. All rights reserved.
+    </small>
+
+</footer>
+
+</body>
+                  </html>

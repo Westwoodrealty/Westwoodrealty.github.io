@@ -1,0 +1,1439 @@
+<!-- =========================
+     index.html
+========================= -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Westwood Property Solution - Property rental and sales applications.">
+    <meta name="theme-color" content="#172033">
+    <title>Westwood Property Solution | Property Application</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header class="top-header">
+    <div class="header-container">
+
+        <div class="logo-area">
+            <h1>WESTWOOD PROPERTY SOLUTION</h1>
+            <p>Homes • Apartments • Commercial Properties</p>
+        </div>
+
+        <a href="#application" class="header-button">
+            Apply Now
+        </a>
+
+    </div>
+</header>
+
+
+<nav class="navigation">
+    <a href="#home">Home</a>
+    <a href="#properties">Properties</a>
+    <a href="#application">Application</a>
+    <a href="#contact">Contact</a>
+</nav>
+
+
+<section class="hero" id="home">
+
+    <div class="hero-overlay">
+
+        <div class="hero-content">
+
+            <p class="hero-small">
+                WESTWOOD PROPERTY SOLUTION
+            </p>
+
+            <h2>
+                Your Next Property
+                <br>
+                Starts Here.
+            </h2>
+
+            <p>
+                Find a home or apartment that fits
+                your needs and lifestyle.
+            </p>
+
+            <a href="#application" class="main-button">
+                Start Application
+            </a>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<section class="intro-section">
+
+    <div class="intro-container">
+
+        <p class="section-label">
+            WELCOME
+        </p>
+
+        <h2>
+            Find a Place You'll Be Proud to Call Home
+        </h2>
+
+        <p>
+            Complete the application below and provide
+            the information needed for your property
+            application. Our team can review your
+            information and contact you regarding
+            available properties and next steps.
+        </p>
+
+    </div>
+
+</section>
+
+
+<section class="properties-section" id="properties">
+
+    <div class="section-heading">
+
+        <p class="section-label">
+            FEATURED PROPERTIES
+        </p>
+
+        <h2>
+            Explore Available Properties
+        </h2>
+
+        <p>
+            Browse our featured property options.
+        </p>
+
+    </div>
+
+
+    <div class="property-grid">
+
+
+        <article class="property-card">
+
+            <img
+                src="https://photos.zillowstatic.com/fp/c645b10c61aa31897aa1a2e5e508ffe3-cc_ft_1344.webp"
+                alt="Featured property"
+            >
+
+            <div class="property-info">
+
+                <span class="property-status">
+                    FOR RENT
+                </span>
+
+                <h3>
+                    Modern Family Home
+                </h3>
+
+                <p class="property-location">
+                    Residential Property
+                </p>
+
+                <p>
+                    Comfortable living space suitable
+                    for individuals or families.
+                </p>
+
+                <a href="#application" class="property-button">
+                    Apply for This Property
+                </a>
+
+            </div>
+
+        </article>
+
+
+        <article class="property-card">
+
+            <img
+                src="https://photos.zillowstatic.com/fp/50c8879990651c74068848eda22461b7-cc_ft_1344.webp"
+                alt="Featured property"
+            >
+
+            <div class="property-info">
+
+                <span class="property-status">
+                    FOR SALE
+                </span>
+
+                <h3>
+                    Contemporary Residence
+                </h3>
+
+                <p class="property-location">
+                    Residential Property
+                </p>
+
+                <p>
+                    A stylish property designed for
+                    modern living.
+                </p>
+
+                <a href="#application" class="property-button">
+                    Ask About This Property
+                </a>
+
+            </div>
+
+        </article>
+
+
+        <article class="property-card">
+
+            <img
+                src="https://photos.zillowstatic.com/fp/0ae8e7120b57f944f6925d0061e1f816-cc_ft_1344.webp"
+                alt="Featured property"
+            >
+
+            <div class="property-info">
+
+                <span class="property-status">
+                    RENT / BUY
+                </span>
+
+                <h3>
+                    Luxury Apartment
+                </h3>
+
+                <p class="property-location">
+                    Premium Apartment
+                </p>
+
+                <p>
+                    A refined property option for
+                    prospective renters or buyers.
+                </p>
+
+                <a href="#application" class="property-button">
+                    Apply / Enquire
+                </a>
+
+            </div>
+
+        </article>
+
+
+    </div>
+
+</section>
+
+
+<section class="application-section" id="application">
+
+    <div class="application-container">
+
+        <div class="section-heading">
+
+            <p class="section-label">
+                RENTAL APPLICATION
+            </p>
+
+            <h2>
+                Property Application Form
+            </h2>
+
+            <p>
+                Please complete the information below.
+                Required fields are marked with *.
+            </p>
+
+        </div>
+
+
+        <form
+            id="propertyApplication"
+            action="https://formspree.io/f/xeaooper"
+            method="POST"
+            class="application-form"
+        >
+
+            <input
+                type="hidden"
+                name="_subject"
+                value="New Westwood Property Solution Application"
+            >
+
+            <input
+                type="text"
+                name="_gotcha"
+                class="website-field"
+                tabindex="-1"
+                autocomplete="off"
+            >
+
+
+            <!-- 01 PERSONAL INFORMATION -->
+
+            <div class="form-section-title">
+
+                <span>01</span>
+
+                <div>
+                    <h3>Personal Information</h3>
+                    <p>Applicant's personal information</p>
+                </div>
+
+            </div>
+
+
+            <div class="form-group">
+
+                <label for="fullName">
+                    Name *
+                </label>
+
+                <input
+                    type="text"
+                    id="fullName"
+                    name="Name"
+                    placeholder="First and last name"
+                    autocomplete="name"
+                    required
+                >
+
+            </div>
+
+
+            <div class="form-row">
+
+                <div class="form-group">
+
+                    <label for="dateOfBirth">
+                        Date of Birth *
+                    </label>
+
+                    <input
+                        type="date"
+                        id="dateOfBirth"
+                        name="Date of Birth"
+                        required
+                    >
+
+                </div>
+
+
+                <div class="form-group">
+
+                    <label for="email">
+                        Email *
+                    </label>
+
+                    <input
+                        type="email"
+                        id="email"
+                        name="Email"
+                        placeholder="your.email@example.com"
+                        autocomplete="email"
+                        required
+                    >
+
+                </div>
+
+            </div>
+
+
+            <div class="form-row">
+
+                <div class="form-group">
+
+                    <label for="homePhone">
+                        Home Phone Number *
+                    </label>
+
+                    <input
+                        type="tel"
+                        id="homePhone"
+                        name="Home Phone Number"
+                        placeholder="(555) 123-4567"
+                        autocomplete="tel"
+                        required
+                    >
+
+                </div>
+
+
+                <div class="form-group">
+
+                    <label for="relationship">
+                        Relationship Status *
+                    </label>
+
+                    <select
+                        id="relationship"
+                        name="Relationship Status"
+                        required
+                    >
+
+                        <option value="">
+                            Select relationship status
+                        </option>
+
+                        <option value="Single">
+                            Single
+                        </option>
+
+                        <option value="Married">
+                            Married
+                        </option>
+
+                        <option value="Domestic Partnership">
+                            Domestic Partnership
+                        </option>
+
+                        <option value="Divorced">
+                            Divorced
+                        </option>
+
+                        <option value="Widowed">
+                            Widowed
+                        </option>
+
+                        <option value="Other">
+                            Other
+                        </option>
+
+                    </select>
+
+                </div>
+
+            </div>
+
+
+            <!-- 02 CURRENT ADDRESS -->
+
+            <div class="form-section-title">
+
+                <span>02</span>
+
+                <div>
+                    <h3>Current Address</h3>
+                    <p>Your current residence information</p>
+                </div>
+
+            </div>
+
+
+            <div class="form-group">
+
+                <label for="currentAddress">
+                    Current Address *
+                </label>
+
+                <input
+                    type="text"
+                    id="currentAddress"
+                    name="Current Address"
+                    placeholder="Street address, City, State, ZIP"
+                    autocomplete="street-address"
+                    required
+                >
+
+            </div>
+
+
+            <div class="form-row">
+
+                <div class="form-group">
+
+                    <label for="otherOccupant">
+                        Other Occupants *
+                    </label>
+
+                    <select
+                        id="otherOccupant"
+                        name="Other Occupants"
+                        required
+                    >
+
+                        <option value="">
+                            Select
+                        </option>
+
+                        <option value="No">
+                            No
+                        </option>
+
+                        <option value="Yes">
+                            Yes
+                        </option>
+
+                    </select>
+
+                </div>
+
+
+                <div class="form-group">
+
+                    <label for="pets">
+                        Do You Have Any Pets? *
+                    </label>
+
+                    <select
+                        id="pets"
+                        name="Pets"
+                        required
+                    >
+
+                        <option value="">
+                            Select
+                        </option>
+
+                        <option value="No">
+                            No
+                        </option>
+
+                        <option value="Yes">
+                            Yes
+                        </option>
+
+                    </select>
+
+                </div>
+
+            </div>
+
+
+            <div class="form-row">
+
+                <div class="form-group">
+
+                    <label for="vehicle">
+                        Do You Have a Vehicle? *
+                    </label>
+
+                    <select
+                        id="vehicle"
+                        name="Vehicle"
+                        required
+                    >
+
+                        <option value="">
+                            Select
+                        </option>
+
+                        <option value="No">
+                            No
+                        </option>
+
+                        <option value="Yes">
+                            Yes
+                        </option>
+
+                    </select>
+
+                </div>
+
+
+                <div class="form-group">
+
+                    <label for="smoking">
+                        Do You Smoke? *
+                    </label>
+
+                    <select
+                        id="smoking"
+                        name="Smoking"
+                        required
+                    >
+
+                        <option value="">
+                            Select
+                        </option>
+
+                        <option value="No">
+                            No
+                        </option>
+
+                        <option value="Yes">
+                            Yes
+                        </option>
+
+                    </select>
+
+                </div>
+
+            </div>
+
+
+            <!-- 03 BACKGROUND INFORMATION -->
+
+            <div class="form-section-title">
+
+                <span>03</span>
+
+                <div>
+                    <h3>Background Information</h3>
+                    <p>Rental and background history</p>
+                </div>
+
+            </div>
+
+
+            <div class="form-group">
+
+                <label for="convicted">
+                    Have You Ever Been Convicted of a Crime? *
+                </label>
+
+                <select
+                    id="convicted"
+                    name="Previously Convicted"
+                    required
+                >
+
+                    <option value="">
+                        Select
+                    </option>
+
+                    <option value="No">
+                        No
+                    </option>
+
+                    <option value="Yes">
+                        Yes
+                    </option>
+
+                </select>
+
+            </div>
+
+
+            <div class="form-group">
+
+                <label for="brokenLease">
+                    Have You Ever Broken a Lease? *
+                </label>
+
+                <select
+                    id="brokenLease"
+                    name="Previously Broken Lease"
+                    required
+                >
+
+                    <option value="">
+                        Select
+                    </option>
+
+                    <option value="No">
+                        No
+                    </option>
+
+                    <option value="Yes">
+                        Yes
+                    </option>
+
+                </select>
+
+            </div>
+
+
+            <div class="form-group">
+
+                <label for="bankruptcy">
+                    Have You Ever Declared Bankruptcy? *
+                </label>
+
+                <select
+                    id="bankruptcy"
+                    name="Previously Declared Bankruptcy"
+                    required
+                >
+
+                    <option value="">
+                        Select
+                    </option>
+
+                    <option value="No">
+                        No
+                    </option>
+
+                    <option value="Yes">
+                        Yes
+                    </option>
+
+                </select>
+
+            </div>
+
+
+            <!-- 04 PREVIOUS LANDLORD -->
+
+            <div class="form-section-title">
+
+                <span>04</span>
+
+                <div>
+                    <h3>Previous Landlord Information</h3>
+                    <p>Previous rental information</p>
+                </div>
+
+            </div>
+
+
+            <div class="form-row">
+
+                <div class="form-group">
+
+                    <label for="previousLandlord">
+                        Previous Landlord / Manager Name
+                    </label>
+
+                    <input
+                        type="text"
+                        id="previousLandlord"
+                        name="Previous Landlord or Manager Name"
+                        placeholder="Name"
+                    >
+
+                </div>
+
+
+                <div class="form-group">
+
+                    <label for="previousLandlordPhone">
+                        Previous Landlord / Manager Phone Number
+                    </label>
+
+                    <input
+                        type="tel"
+                        id="previousLandlordPhone"
+                        name="Previous Landlord or Manager Phone Number"
+                        placeholder="(555) 123-4567"
+                    >
+
+                </div>
+
+            </div>
+
+
+            <div class="form-group">
+
+                <label for="landlordAddress">
+                    Current Landlord / Manager Address
+                </label>
+
+                <input
+                    type="text"
+                    id="landlordAddress"
+                    name="Current Landlord or Manager Address"
+                    placeholder="Street address, City, State, ZIP"
+                >
+
+            </div>
+
+
+            <div class="form-group">
+
+                <label for="monthlyRental">
+                    Current Monthly Rent *
+                </label>
+
+                <div class="money-input">
+
+                    <span>$</span>
+
+                    <input
+                        type="number"
+                        id="monthlyRental"
+                        name="Current Monthly Rent"
+                        placeholder="0.00"
+                        min="0"
+                        step="0.01"
+                        required
+                    >
+
+                </div>
+
+            </div>
+
+
+            <!-- 05 EMPLOYMENT -->
+
+            <div class="form-section-title">
+
+                <span>05</span>
+
+                <div>
+                    <h3>Employment Information</h3>
+                    <p>Employment and income information</p>
+                </div>
+
+            </div>
+
+
+            <div class="form-group">
+
+                <label for="grossIncome">
+                    Gross Monthly Income *
+                </label>
+
+                <div class="money-input">
+
+                    <span>$</span>
+
+                    <input
+                        type="number"
+                        id="grossIncome"
+                        name="Gross Monthly Income"
+                        placeholder="0.00"
+                        min="0"
+                        step="0.01"
+                        required
+                    >
+
+                </div>
+
+            </div>
+
+
+            <div class="form-row">
+
+                <div class="form-group">
+
+                    <label for="employed">
+                        Are You Currently Employed? *
+                    </label>
+
+                    <select
+                        id="employed"
+                        name="Currently Employed"
+                        required
+                    >
+
+                        <option value="">
+                            Select
+                        </option>
+
+                        <option value="Yes">
+                            Yes
+                        </option>
+
+                        <option value="No">
+                            No
+                        </option>
+
+                        <option value="Self-employed">
+                            Self-employed
+                        </option>
+
+                    </select>
+
+                </div>
+
+
+                <div class="form-group">
+
+                    <label for="employmentLength">
+                        Length of Employment *
+                    </label>
+
+                    <input
+                        type="text"
+                        id="employmentLength"
+                        name="Length of Employment"
+                        placeholder="e.g., 2 years, 6 months"
+                        required
+                    >
+
+                </div>
+
+            </div>
+
+
+            <div class="form-group">
+
+                <label for="salary">
+                    Monthly Salary (USD) *
+                </label>
+
+                <div class="money-input">
+
+                    <span>$</span>
+
+                    <input
+                        type="number"
+                        id="salary"
+                        name="Monthly Salary USD"
+                        placeholder="0.00"
+                        min="0"
+                        step="0.01"
+                        required
+                    >
+
+                </div>
+
+            </div>
+
+
+            <!-- 06 RENTAL DETAILS -->
+
+            <div class="form-section-title">
+
+                <span>06</span>
+
+                <div>
+                    <h3>Rental Details</h3>
+                    <p>Information about your intended rental</p>
+                </div>
+
+            </div>
+
+
+            <div class="form-row">
+
+                <div class="form-group">
+
+                    <label for="moveInDate">
+                        Move-In Date *
+                    </label>
+
+                    <input
+                        type="date"
+                        id="moveInDate"
+                        name="Move-In Date"
+                        required
+                    >
+
+                </div>
+
+
+                <div class="form-group">
+
+                    <label for="moveOutDate">
+                        Move-Out Date *
+                    </label>
+
+                    <input
+                        type="date"
+                        id="moveOutDate"
+                        name="Move-Out Date"
+                        required
+                    >
+
+                </div>
+
+            </div>
+
+
+            <div class="form-group">
+
+                <label for="reasonLeaving">
+                    Reason for Leaving Your Current Address *
+                </label>
+
+                <textarea
+                    id="reasonLeaving"
+                    name="Reason for Leaving Current Address"
+                    rows="4"
+                    required
+                ></textarea>
+
+            </div>
+
+
+            <div class="form-group">
+
+                <label for="numberOfPeople">
+                    How Many People Will Be Living in the Apartment, Including Yourself? *
+                </label>
+
+                <input
+                    type="number"
+                    id="numberOfPeople"
+                    name="Number of People Staying"
+                    min="1"
+                    step="1"
+                    required
+                >
+
+            </div>
+
+
+            <div class="form-group">
+
+                <label for="startStaying">
+                    When Would You Like to Move In? *
+                </label>
+
+                <input
+                    type="text"
+                    id="startStaying"
+                    name="Desired Move-In Timing"
+                    placeholder="e.g., Immediately, Next month"
+                    required
+                >
+
+            </div>
+
+
+            <div class="form-group">
+
+                <label for="creditScore">
+                    Credit Score
+                </label>
+
+                <input
+                    type="number"
+                    id="creditScore"
+                    name="Credit Score"
+                    placeholder="e.g., 750"
+                    min="0"
+                    max="900"
+                >
+
+            </div>
+
+
+            <div class="form-group">
+
+                <label for="documentsTiming">
+                    How Soon Would You Like to Receive the Keys or Property Documents? *
+                </label>
+
+                <input
+                    type="text"
+                    id="documentsTiming"
+                    name="Keys or Documents Timing"
+                    placeholder="e.g., Within 1 week"
+                    required
+                >
+
+            </div>
+
+
+            <div class="form-group">
+
+                <label for="depositTiming">
+                    How Soon Do You Intend to Pay the Security Deposit? *
+                </label>
+
+                <input
+                    type="text"
+                    id="depositTiming"
+                    name="Security Deposit Timing"
+                    placeholder="e.g., Immediately, Within 3 days"
+                    required
+                >
+
+            </div>
+
+
+            <div class="form-group">
+
+                <label for="rentTiming">
+                    How Soon Do You Intend to Pay the Rent? *
+                </label>
+
+                <input
+                    type="text"
+                    id="rentTiming"
+                    name="Rent Payment Timing"
+                    placeholder="e.g., On move-in date"
+                    required
+                >
+
+            </div>
+
+
+            <!-- PAYMENT METHOD -->
+
+            <div class="form-group">
+
+                <label for="paymentMethod">
+                    Payment Method Preference
+                </label>
+
+                <select
+                    id="paymentMethod"
+                    name="Payment Method Preference"
+                >
+
+                    <option value="">
+                        Choose payment method
+                    </option>
+
+                    <option value="Zelle">Zelle</option>
+                    <option value="Apple Pay">Apple Pay</option>
+                    <option value="PayPal">PayPal</option>
+                    <option value="Chime">Chime</option>
+                    <option value="Google Pay">Google Pay</option>
+                    <option value="Venmo">Venmo</option>
+                    <option value="Cash App">Cash App</option>
+                    <option value="Other">Other</option>
+
+                </select>
+
+                <small class="field-note">
+                    Any payment arrangements should be confirmed
+                    directly with Westwood Property Solution through
+                    its official process before payment is made.
+                </small>
+
+            </div>
+
+
+            <!-- 07 CERTIFICATION -->
+
+            <div class="form-section-title">
+
+                <span>07</span>
+
+                <div>
+                    <h3>Certification & Signature</h3>
+                    <p>Applicant certification and authorization</p>
+                </div>
+
+            </div>
+
+
+            <div class="form-group">
+
+                <label for="signingDate">
+                    Date of Signing *
+                </label>
+
+                <input
+                    type="date"
+                    id="signingDate"
+                    name="Date of Signing"
+                    required
+                >
+
+            </div>
+
+
+            <div class="form-group">
+
+                <label for="signature">
+                    Signature (Full Name) *
+                </label>
+
+                <input
+                    type="text"
+                    id="signature"
+                    name="Signature by Name"
+                    placeholder="Your full name"
+                    required
+                >
+
+            </div>
+
+
+            <div class="certification-box">
+
+                <input
+                    type="checkbox"
+                    id="certification"
+                    name="Applicant Certification"
+                    value="Applicant confirms that the information provided is true and correct."
+                    required
+                >
+
+                <label for="certification">
+
+                    I certify that I am at least 18 years of age
+                    and that all information provided in this
+                    application is true and correct to the best
+                    of my knowledge.
+
+                    I authorize the verification of the references
+                    and information provided in this application,
+                    including credit, rental history, and background
+                    information, where permitted by law.
+
+                    I agree to provide additional credit or
+                    personal references upon request.
+
+                    I understand that incomplete or inaccurate
+                    information may delay the processing of my
+                    application and may result in denial of tenancy.
+
+                    I release, to the extent permitted by law,
+                    any person or organization providing or
+                    obtaining information for the purpose of
+                    verifying this application from liability
+                    arising from that verification.
+
+                </label>
+
+            </div>
+
+
+            <button
+                type="submit"
+                class="submit-button"
+            >
+                Submit Property Application
+            </button>
+
+
+            <p class="form-note">
+                Please review all information carefully before
+                submitting your application.
+            </p>
+
+        </form>
+
+
+        <!-- SUCCESS MESSAGE -->
+
+        <div
+            id="successMessage"
+            class="success-message"
+        >
+
+            <div class="success-icon">
+                ✓
+            </div>
+
+            <h2>
+                Application Submitted Successfully
+            </h2>
+
+            <p>
+                Thank you for submitting your property
+                application to Westwood Property Solution.
+            </p>
+
+            <p>
+                Our property team will review your application
+                and contact you regarding the next steps.
+            </p>
+
+            <div class="success-contact">
+
+                <strong>
+                    Need assistance?
+                </strong>
+
+                <a href="tel:+18482817738">
+                    📞 848-281-7738
+                </a>
+
+            </div>
+
+            <button
+                type="button"
+                class="another-button"
+                onclick="submitAnotherApplication()"
+            >
+                Submit Another Application
+            </button>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- CONTACT -->
+
+<section
+    class="contact-section"
+    id="contact"
+>
+
+    <div class="contact-box">
+
+        <p class="section-label">
+            GET IN TOUCH
+        </p>
+
+        <h2>
+            Need Help Finding a Property?
+        </h2>
+
+        <p>
+            Contact Westwood Property Solution and our
+            team will be happy to assist you with your
+            property needs.
+        </p>
+
+        <div class="contact-details">
+
+            <a href="tel:+18482817738">
+                📞 848-281-7738
+            </a>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- FOOTER -->
+
+<footer class="footer">
+
+    <div class="footer-content">
+
+        <h3>
+            WESTWOOD PROPERTY SOLUTION
+        </h3>
+
+        <p>
+            Homes • Apartments • Commercial Properties
+        </p>
+
+        <p class="copyright">
+            © 2026 Westwood Property Solution. All rights reserved.
+        </p>
+
+    </div>
+
+</footer>
+
+
+<script>
+
+const applicationForm =
+    document.getElementById("propertyApplication");
+
+const successMessage =
+    document.getElementById("successMessage");
+
+
+applicationForm.addEventListener(
+    "submit",
+    async function(event) {
+
+        event.preventDefault();
+
+        const submitButton =
+            applicationForm.querySelector(
+                'button[type="submit"]'
+            );
+
+        submitButton.disabled = true;
+
+        submitButton.textContent =
+            "Submitting Application...";
+
+        const formData =
+            new FormData(applicationForm);
+
+        try {
+
+            const response =
+                await fetch(
+                    applicationForm.action,
+                    {
+                        method: "POST",
+                        body: formData,
+                        headers: {
+                            "Accept": "application/json"
+                        }
+                    }
+                );
+
+            if (response.ok) {
+
+                applicationForm.style.display =
+                    "none";
+
+                successMessage.classList.add(
+                    "show"
+                );
+
+                successMessage.scrollIntoView({
+                    behavior: "smooth",
+                    block: "center"
+                });
+
+                applicationForm.reset();
+
+            } else {
+
+                let errorMessage =
+                    "There was a problem submitting your application. Please try again.";
+
+                try {
+
+                    const data =
+                        await response.json();
+
+                    if (
+                        data &&
+                        data.errors &&
+                        data.errors.length
+                    ) {
+
+                        errorMessage =
+                            data.errors
+                                .map(error => error.message)
+                                .join("\n");
+
+                    }
+
+                } catch (error) {}
+
+                alert(errorMessage);
+
+                submitButton.disabled =
+                    false;
+
+                submitButton.textContent =
+                    "Submit Property Application";
+            }
+
+        } catch (error) {
+
+            alert(
+                "Unable to submit the application. Please check your internet connection and try again."
+            );
+
+            submitButton.disabled =
+                false;
+
+            submitButton.textContent =
+                "Submit Property Application";
+        }
+
+    }
+);
+
+
+function submitAnotherApplication() {
+
+    successMessage.classList.remove(
+        "show"
+    );
+
+    applicationForm.style.display =
+        "block";
+
+    applicationForm.scrollIntoView({
+        behavior: "smooth",
+        block: "start"
+    });
+
+    const submitButton =
+        applicationForm.querySelector(
+            'button[type="submit"]'
+        );
+
+    submitButton.disabled =
+        false;
+
+    submitButton.textContent =
+        "Submit Property Application";
+}
+
+</script>
+
+</body>
+</html>
